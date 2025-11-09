@@ -3,7 +3,7 @@ import CountryCard from "./CountryCard";
 
 
 const Countries = ({ API_ENDPOINT }) => {
-    const [countries, setCountries] = useState([])
+    const [countries, setCountries] = useState()
 
     useEffect(() => {
         const fetchCountries = async () => {
