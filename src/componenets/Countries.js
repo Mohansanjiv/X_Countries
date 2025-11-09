@@ -11,8 +11,8 @@ const Countries = ({ API_ENDPOINT }) => {
             const data = await res.json();
             setCountries(data)
         }
-        return fetchCountries;
-    }, [])
+        fetchCountries();
+    }, [API_ENDPOINT])
 
     return (
         <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "center", alignItems: "center", gap: "15px" }}>
