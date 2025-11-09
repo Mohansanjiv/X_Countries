@@ -1,0 +1,1 @@
+export const API_ENDPOINT = "https://xcountries-backend.labs.crio.do/all"
